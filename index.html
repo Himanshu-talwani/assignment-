@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Gym Vest - Urban Athleisure</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="javascript" href="script.js">
+</head>
+<body>
+    <div class="container">
+        <div class="product-container">
+            <div class="product-image-box">
+                <img src="gym vest.jpg" alt="Black Gym Vest" class="product-image">
+            </div>
+            
+            <div class="product-details">
+                <h1 class="product-title">Black Performance Vest</h1>
+                <div class="price-container">
+                    <span class="current-price">₹1,179</span>
+                    <span class="old-price">₹1,499</span>
+                </div>
+                
+                <p class="product-description">
+                    High-performance gym vest with moisture-wicking fabric. Perfect for workouts or casual wear.
+                    <br><br>
+                    • 92% Polyester, 8% Spandex<br>
+                    • Lightweight and breathable<br>
+                    • Regular fit
+                </p>
+                
+                <div class="size-section">
+                    <h4 class="size-title">Size:</h4>
+                    <div class="size-buttons">
+                        <button class="size-btn">S</button>
+                        <button class="size-btn selected">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                    </div>
+                    <!-- (CTA) -->
+                    <button class="size-chart-btn" id="sizeChartBtn">📏 View Size Chart </button> 
+
+                </div>
+                
+                <button class="add-to-cart">Add to Cart</button>
+                
+                <div class="shipping-info">
+                    <p>✔ Free shipping on orders over ₹999</p>
+                    <p>✔ 30-day returns</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="related-products">
+            <h2 class="section-title">You May Also Like</h2>
+            <div class="products-scroll">
+                <div class="product-card">
+                    <img src="py t-shirt.jpg" alt="Python T-shirt" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-name">Python Coding T-shirt</h3>
+                        <div class="product-price">₹999</div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <img src="coding.jpeg" alt="Coding T-shirt" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-name">Coding T-shirt</h3>
+                        <div class="product-price">₹999</div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <img src="Hoodie.jpeg" alt="Hoodie" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-name">Classic Hoodie</h3>
+                        <div class="product-price">₹899</div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <img src="chill guy.webp" alt="Chill Guy T-shirt" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-name">Chill Guy T-shirt</h3>
+                        <div class="product-price">₹1,099</div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <img src="Tropical Vibes T-shirt.jpg" alt="Tropical T-shirt" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-name">Tropical Vibes T-shirt</h3>
+                        <div class="product-price">₹999</div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <img src="grey shirt.webp" alt="Grey Shirt" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-name">Grey Shirt</h3>
+                        <div class="product-price">₹999</div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <img src="dotted oversized tshirt.jpg" alt="Oversized T-shirt" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-name">Oversized T-shirt</h3>
+                        <div class="product-price">₹799</div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <img src="polo t-shirt.jpg" alt="Polo T-shirt" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-name">Polo T-shirt</h3>
+                        <div class="product-price">₹1,099</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="sizeChartModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 class="modal-title">Size Chart</h2>
+            <table>
+                <tr>
+                    <th>In Inches</th>
+                    <th>S</th>
+                    <th>M</th>
+                    <th>L</th>
+                    <th>XL</th>
+                    <th>2XL</th>
+                    <th>3XL</th>
+                    <th>4XL</th>
+                </tr>
+                <tr>
+                    <td>Length</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td>Chest</td>
+                    <td>38</td>
+                    <td>40</td>
+                    <td>42</td>
+                    <td>44</td>
+                    <td>46</td>
+                    <td>48</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Shoulder</td>
+                    <td>15.5</td>
+                    <td>16.5</td>
+                    <td>17.5</td>
+                    <td>18.5</td>
+                    <td>19.5</td>
+                    <td>20.5</td>
+                    <td>21.5</td>
+                </tr>
+                <tr>
+                    <td>Sleeve Open</td>
+                    <td>5</td>
+                    <td>5.5</td>
+                    <td>5.5</td>
+                    <td>6</td>
+                    <td>6</td>
+                    <td>6.5</td>
+                    <td>6.5</td>
+                </tr>
+                <tr>
+                    <td>Sleeve Length (with cuff)</td>
+                    <td>8</td>
+                    <td>8.5</td>
+                    <td>8.5</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9.5</td>
+                    <td>9.5</td>
+                </tr>
+                <tr>
+                    <td>Cuff Height</td>
+                    <td>0.75</td>
+                    <td>0.75</td>
+                    <td>0.75</td>
+                    <td>0.75</td>
+                    <td>0.75</td>
+                    <td>0.75</td>
+                    <td>0.75</td>
+                </tr>
+                <tr>
+                    <td>Collar Point</td>
+                    <td>2.5</td>
+                    <td>2.5</td>
+                    <td>2.5</td>
+                    <td>2.5</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Created by <a href="https://www.linkedin.com/in/himanshu-talwani-492241237/" target="_blank">Himanshu Talwani</a></p>
+        <p>Github: <a href="https://github.com/Himanshu-talwani" target="_blank">Himanshu-talwani</a></p>
+        <p>Follow me on <a href="https://www.instagram.com/avi_8.1?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">instagram</a></p>
+        
+</body>
+</html>
